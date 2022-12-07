@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-full bg-sky-500 text-white p-4 grid grid-cols-3 font-bold">
+      <h2 class="">Computer Choice: <span id="computer-choice"></span></h2>
+      <h2>User Choice: <span id="user-choice"></span></h2>
+      <h2>Result: <span id="result"></span></h2>
+    </div>
+
+    <button id="rock" class="bg-red-500 p-4 w-24">rock</button>
+    <button class="bg-red-500 p-4 hover:bg-rose-900 w-24" id="paper">
+      paper
+    </button>
+    <button class="bg-red-500 p-4 hover:bg-rose-900 w-24" id="scissors">
+      scissors
+    </button>
+    <button class="bg-red-500 p-4 hover:bg-rose-900 w-24" id="lizard">
+      lizard
+    </button>
+    <button class="bg-red-500 p-4 hover:bg-rose-900 w-24" id="spock">
+      spock
+    </button>
+    <br />
+    <h3>Rules of the game:</h3>
+    <h4>
+      <br />
+      <hr />
+      Rock beats --> Paper [&&] lizard
+      <br />
+      <hr />
+      lizard beats --> spock [&&] paper
+      <br />
+      <hr />
+      paper beats --> spock [&&] rock
+      <br />
+      <hr />
+      spock beats --> scissors [&&] rock
+      <br />
+      <hr />
+      scissors beats --> lizard [&&] paper
+      <hr />
+    </h4>
+
+    <h1>Thanks for playing!</h1>
+    <h3>Made by: Rishna Rajasekaram</h3>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
